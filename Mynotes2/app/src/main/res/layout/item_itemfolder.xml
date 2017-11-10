@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#259CD2"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ftitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="58dp"
+        android:paddingLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/fdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textSize="12sp"
+        android:layout_below="@+id/ftitle"
+        android:paddingLeft="5dp"
+        android:layout_marginLeft="58dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageviewfolder"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/folder"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

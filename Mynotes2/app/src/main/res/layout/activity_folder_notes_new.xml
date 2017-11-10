@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#0D6891"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.mynotes.FolderNotesActivityNew">
+
+    <EditText
+        android:id="@+id/newnotetitle"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:paddingLeft="6dp"
+        android:hint="Title"
+        android:background="#259CD2"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/newnotecontent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/newnotetitle"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:background="#259CD2"
+        android:layout_marginBottom="60dp"
+        android:hint="Content"
+        android:paddingTop="4dp"
+        android:paddingLeft="6dp"
+        android:gravity="top"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/newnotetitle" />
+
+    <Button
+        android:id="@+id/texttospeech2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#259CD2"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:text="Speak"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/newnotecontent" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/folderfragment"
+    android:background="#0D6891"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.mynotes.FolderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:id="@+id/folderlist"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/creatingfolder"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/add"
+        app:backgroundTint="#510CB2" />
+
+</RelativeLayout>

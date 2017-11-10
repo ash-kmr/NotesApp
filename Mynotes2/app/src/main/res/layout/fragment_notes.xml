@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0D6891"
+    tools:context="com.example.hp.mynotes.NotesFragment">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:id="@+id/listView"
+        android:layout_above="@+id/new_note"
+        android:smoothScrollbar="true"
+        android:layout_alignParentTop="true"></ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/new_note"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/add"
+        app:backgroundTint="#510CB2" />
+
+</RelativeLayout>
